@@ -1,0 +1,86 @@
+dataID,zh,cn
+OperationFail,下注失敗,下注失败
+PhysicalError,機器錯誤,机器错误
+TableNotFound,無此桌,无此桌
+NotLogin,沒登入,没登入
+PlayerNotSeatIn,沒入坐,没入坐
+NotSufficientCredit,帳戶額度不足,帐户额度不足
+UserNotFound,無使用者,无使用者
+UserBetLocked,下注鎖單,下注锁单
+TableLimitBetFaild,下注失敗，\n該注區已達最高下注額度,下注失败，\n该注区已达最高下注额度
+LimitStakeBetFaild,已達到限注條件,已达到限注条件
+CreditServerUpdateFaild,玩家額度更新錯誤,玩家额度更新错误
+WeekWinBetFaild,已達到當週限贏,已达到当周限赢
+WeekLoseBetFaid,已達到當週限輸,已达到当周限输
+LimitStakeMaxBetFail,高於該注區押注限額,高于该注区押注限额
+LimitStakeMinBetFail,低於該注區押注限額,低于该注区押注限额
+TableLimitCantNotCalac,限紅資料不能為空,限红资料不能为空
+WeekAndLoseNotCalac,賠率未設定\n無法計算當週限贏限輸,赔率未设定\n无法计算当周限赢限输
+PlayerNoPremission,玩家沒有權限開啟,玩家没有权限开启
+BettingOfPlayerNotFound,玩家沒有下注,玩家没有下注
+RebetLowerBetMiniLimit,下注金額低於注區押注限額,下注金额低于注区押注限额
+BetIsMax,該注區限額已滿,该注区限额已满
+BetOverCredit,帳戶額度不足,帐户额度不足
+BetOverLimit,超過該注區限額，\n已下滿本注區最大額度,超过该注区限额，\n已下满本注区最大额度
+BetFailMsgDefault,下注失敗，錯誤代碼：{0},下注失败，错误代码：{0}
+SeatFailWeekWinBetFaild,超過限額上限，請聯絡您的上層,超过限额上限，请联络您的上层
+SeatFailWeekLoseBetFaid,超過限額下限，請聯絡您的上層,超过限额下限，请联络您的上层
+SeatFailPlayerNoPremission,入桌失敗，無指定遊戲權限,入桌失败，无指定游戏权限
+SeatFailDuplicateIPInTable,該桌已有同IP玩家在進行遊戲，請更換其他桌檯，謝謝,该桌已有同IP玩家在进行游戏，请更换其他桌台，谢谢
+SeatFailHaveBettedInSingleTable,尚有桌台未結算完畢，請稍候再入桌,尚有桌台未结算完毕，请稍候再入桌
+SeatFailHaveBettedInMultipleTable,尚有桌台未結算完畢，請稍候再入桌,尚有桌台未结算完毕，请稍候再入桌
+SeatFailToBeMaintain,該桌即將進行維護，無法入桌,该桌即将进行维护，无法入桌
+SeatFailTimeOut,逾時，遊戲即將關閉,逾时，游戏即将关闭
+SeatFailSignalRError,失敗，遊戲即將關閉,失败，游戏即将关闭
+SeatFailMsgDefault,入桌失敗，錯誤代碼：{0},入桌失败，错误代码：{0}
+WebApiFailCantParserRequest,Server無法解析Request,Server无法解析Request
+WebApiFailParmError,參數錯誤,参数错误
+WebApiFailLoginFail,登入失敗,登入失败
+WebApiFailMsgDefault,錯誤代碼：{0},错误代码：{0}
+AlertTitleError,錯誤,错误
+AlertTitleWarning,警告,警告
+AlertTitleNewVersion,版本更新,版本更新
+RemindNoBetFiveRun,提醒您，若5局未下注則會於\n本局結束後自動返回大廳,提醒您，若5局未下注则会于\n本局结束后自动返回大厅
+RemindNoBetFiveMinute,提醒您，若5分鐘未下注\n將會自動返回大廳,提醒您，若5分钟未下注\n将会自动返回大厅
+LoadingGameDataTimeOut,讀取遊戲資料逾時，請重新進入,读取游戏资料逾时，请重新进入
+LoadingGameFail,讀取逾時，請重新進入,读取逾时，请重新进入
+LoadingGameUITimeOut,讀取畫面逾時，請重新進入,读取画面逾时，请重新进入
+GameTimeOutFail,您的網路過慢將可能影響牌局流程，\n建議您重整視訊或重新登入遊戲,您的网路过慢将可能影响牌局流程，\n建议您重整视讯或重新登入游戏
+TableMaintenance,該桌維護中,该桌维护中
+NoBetFiveRun,提醒您，您已經5局未下注，\n將自動返回大廳,提醒您，您已经5局未下注，\n将自动返回大厅
+NoBetFiveMinute,提醒您，您已5分鐘未下注，\n即將返回大廳,提醒您，您已5分钟未下注，\n即将返回大厅
+InBackGroundLongTime,閒置過久，已斷線,闲置过久，已断线
+ConnectClose,無法連線至Server，請檢查網路是否正確連線,无法连线至Server，请检查网路是否正确连线
+ConnectError,"連線錯誤, 請檢查網路是否正確連線","连线错误, 请检查网路是否正确连线"
+LoginFail,登入失敗，請重新登入,登入失败，请重新登入
+GameServerMaintain,伺服器維護中，請稍候,伺服器维护中，请稍候
+VersionIsOld,請更新至最新版本：{0},请更新至最新版本：{0}
+VersionIsOldHotUpdate,請重新開啟遊戲，更新至最新版本：{0},请重新开启游戏，更新至最新版本：{0}
+LoginWebApiFail,登入失敗，請重新登入,登入失败，请重新登入
+GetChipInfoTimeOut,取得籌碼資訊逾時，請檢查網路是否正確連線,取得筹码资讯逾时，请检查网路是否正确连线
+NoChipInfo,無法取得籌碼資訊,无法取得筹码资讯
+GetServerStateTimeOut,取得Server狀態逾時，請檢查網路是否正確連線,取得Server状态逾时，请检查网路是否正确连线
+NoServerState,無法取得Server狀態,无法取得Server状态
+GetSpotInfoTimeOut,取得注區資訊逾時，請檢查網路是否正確連線,取得注区资讯逾时，请检查网路是否正确连线
+NoSpotInfo,無法取得注區資訊,无法取得注区资讯
+GetVersionTimeOut,版本檢查逾時，請檢查網路是否正確連線,版本检查逾时，请检查网路是否正确连线
+NoGetVersion,無法取得版本資訊，請檢查網路：遊戲即將關閉\n代碼：{0},无法取得版本资讯，请检查网路：游戏即将关闭\n代码：{0}
+NoLocalize,{0},{0}
+KickUserNoAuthority,此帳號已被停用，遊戲即將中斷連線,此帐号已被停用，游戏即将中断连线
+KickUserTypeRelogin,此帳號已被重複登入，遊戲即將中斷連線,此帐号已被重复登入，游戏即将中断连线
+KickUser,此帳號已被踢除，遊戲即將中斷連線,此帐号已被踢除，游戏即将中断连线
+UnknownError,遊戲即將關閉，代碼： {0}\n{1},游戏即将关闭，代码： {0}\n{1}
+UpdateInfoTitle,更新公告,更新公告
+UpdateInfoMessage,1.系統優化,1.系统优化
+GetLoginInfoTimeOut,取得登入資訊逾時，請檢查網路是否正確連線,取得登入资讯逾时，请检查网路是否正确连线
+CooperationFirstLogin,首次登入請由平台進入遊戲,首次登入请由平台进入游戏
+CooperationTokenError,帳號資訊有誤，請由平台進入遊戲,帐号资讯有误，请由平台进入游戏
+CooperationLogout,您已登出，再次登入請由平台進入遊戲,您已登出，再次登入请由平台进入游戏
+CoopertaionAppEnvError,登入失敗，儲存的帳號為不同平台帳號，請由正確平台登入。,登入失败，储存的帐号为不同平台帐号，请由正确平台登入。
+CoopertaionTokenFail,登入失敗，請由正確平台登入\n代碼：{0},登入失败，请由正确平台登入\n代码：{0}
+JPRemindThreeTimeWithGame,"<color=#E5B200><size=48><b>Jackpot 拼彩金</b></s><br/><br/><size=40>每局單邊(莊/閒)押注500點以上<br/>連贏10局且有效下注達30,000點以上<br/>即可抱回豐富彩金！</s></c>","<color=#E5B200><size=48><b>Jackpot 拼彩金</b></s><br/><br/><size=40>每局单边(庄/闲)押注500点以上<br/>连赢10局且有效下注达30, 000点以上<br/>即可抱回丰富彩金！ </s></c>"
+CancelAndReturnMoney,<size=40><color=#E5B200>牌局訊號不穩<br/>此局已取消<br/>若您有投注，下注額將返還您的錢包<br/>敬請注意</c></size>,<size=40><color=#E5B200>牌局讯号不稳<br/>此局已取消<br/>若您有投注，下注额将返还您的钱包<br/>敬请注意</ c></size>
+CreditRecoverAPI,<size=80><color=#FFFFFF>額度回復中</c></size><br/><br/><size=48><color=#FFFF00>回復時間為10分鐘，期間停止下注，請稍候。</c></size>,<size=80><color=#FFFFFF>额度回复中</c></size><br/><br/><size=48><color=#FFFF00>回复时间为10分钟，期间停止下注，请稍候。 </c></size>
+JackpotNormalWinMessage,<color=#FFFF00>恭喜您！您已連贏</c><color=#FF0000> {0} </c><color=#FFFF00>局！</c><br/><color=#FFFF00>獲得彩金</c><color=#FF0000> {1} </c><color=#FFFF00>元！</c>,<color=#FFFF00>恭喜您！您已连赢</c><color=#FF0000> {0} </c><color=#FFFF00>局！ </c><br/><color=#FFFF00>获得彩金</c><color=#FF0000> {1} </c><color=#FFFF00>元！ </c>
+JackpotSuperBigWinMessage,<color=#FFFF00>您已連贏</c><color=#FF0000> {0} </c><color=#FFFF00>局，恭喜獲得</c><br/><color=#FFFF00>超級大彩金</c><color=#FF0000> {1} </c><color=#FFFF00>元！</c>,<color=#FFFF00>您已连赢</c><color=#FF0000> {0} </c><color=#FFFF00>局，恭喜获得</c><br/><color=#FFFF00 >超级大彩金</c><color=#FF0000> {1} </c><color=#FFFF00>元！ </c>
+JackpotBigWinMessage,<color=#E5B200><b><size=42>恭喜您！目前可得JP彩金<size=65><br/>${0}<br/></s>＊若繼續累計，下一局連贏可得$ {1}<br/><size=34>＊實際可領取金額以當時彩池額度為準</s></s></b></c>,<color=#E5B200><b><size=42>恭喜您！目前可得JP彩金<size=65><br/>${0}<br/></s>＊若继续累计，下一局连赢可得$ {1}<br/><size= 34>＊实际可领取金额以当时彩池额度为准</s></s></b></c>

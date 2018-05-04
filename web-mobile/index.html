@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+
+  <title>真人荷官Live Casino</title>
+
+  <!--http://www.html5rocks.com/en/mobile/mobifying/-->
+  <meta name="viewport"
+        content="width=device-width,user-scalable=no,initial-scale=1, minimum-scale=1,maximum-scale=1"/>
+
+  <!--https://developer.apple.com/library/safari/documentation/AppleApplications/Reference/SafariHTMLRef/Articles/MetaTags.html-->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="format-detection" content="telephone=no">
+
+  <!-- force webkit on 360 -->
+  <meta name="renderer" content="webkit"/>
+  <meta name="force-rendering" content="webkit"/>
+  <!-- force edge on IE -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+  <meta name="msapplication-tap-highlight" content="no">
+
+  <!-- force full screen on some browser -->
+  <meta name="full-screen" content="yes"/>
+  <meta name="x5-fullscreen" content="true"/>
+  <meta name="360-fullscreen" content="true"/>
+  
+  <!-- force screen orientation on some browser -->
+  <meta name="screen-orientation" content="portrait"/>
+  <meta name="x5-orientation" content="portrait">
+
+  <!--fix fireball/issues/3568 -->
+  <!--<meta name="browsermode" content="application">-->
+  <meta name="x5-page-mode" content="app">
+
+  <!--<link rel="apple-touch-icon" href=".png" />-->
+  <!--<link rel="apple-touch-icon-precomposed" href=".png" />-->
+
+  <link rel="stylesheet" type="text/css" href="style-mobile.css"/>
+  <script src="swfobject.min.js"></script>
+  <script src="jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/hls.js/latest/hls.min.js"></script>
+  
+</head>
+<body onDRAGSTART="window.event.returnValue=false">
+  
+  <div class="content" id="videoContent">
+    <video id="myVideo"  autoplay muted playsinline > </video>
+  </div>
+
+  <script>
+    var _connectUrl = ''
+    var _video = null
+    var _isPlayVideo = false
+
+    function removeVideo() {
+      let myVideo = document.getElementById('myVideo')
+      myVideo.src = ''
+    }
+
+    function resizeVideo() {
+      if(_isPlayVideo == true) {
+        addVideo(_connectUrl)
+      }
+    }
+    
+    function addVideo(url='', width=1320, height=910) {
+      let containerWidth = Number($('#Cocos2dGameContainer').css('width').split('px')[0])  //主畫面的寬度
+      let containerHeight = Number($('#Cocos2dGameContainer').css('height').split('px')[0]) //主畫面的高度
+      let paddingTop = Number($('#Cocos2dGameContainer').css('padding-top').split('px')[0])
+      let paddingLeft = Number($('#Cocos2dGameContainer').css('padding-left').split('px')[0])
+
+      let frameHeightRatio = height / 1920
+
+      let newVideoW = containerWidth
+      let newVideoH = containerHeight * frameHeightRatio
+
+      let myVideo = document.getElementById('myVideo')
+      
+      if(window.isMultiTable == true) {
+        height = 210/568*1920
+        frameHeightRatio = height / 1920
+        newVideoH = containerHeight * frameHeightRatio
+        
+        let top = 45/568*1920
+        let ofY = top*containerHeight/1920 + paddingTop
+
+        myVideo.style.position = 'absolute'
+        myVideo.style.width = newVideoW + 'px'
+        myVideo.style.height = newVideoH + 'px'
+        myVideo.style.top =  ofY + "px"
+        myVideo.style.left = paddingLeft + 'px'
+      } else {
+        height = 420/1136*1920
+        frameHeightRatio = height / 1920
+        newVideoH = containerHeight * frameHeightRatio
+
+        let top = 140/1136*1920
+        let ofY = top*containerHeight/1920 + paddingTop
+        
+        myVideo.style.position = 'absolute'
+        myVideo.style.width = newVideoW + 'px'
+        myVideo.style.height = newVideoH + 'px'
+        myVideo.style.top = ofY + "px"
+        myVideo.style.left = paddingLeft + 'px'
+      }
+
+      
+
+      myVideo.onloadedmetadata = function() {
+        window.NativeConnect.onVideoInfo('didPrepared') 
+
+      };
+
+      if(Hls.isSupported()) {
+        let hls = new Hls();
+        hls.loadSource(url);
+        hls.attachMedia(myVideo);
+        hls.on(Hls.Events.MANIFEST_PARSED,function() {
+          myVideo.play();
+        })
+      } else {
+        myVideo.src = url
+      }
+    }
+
+    var _videoId = 0
+    var _videoList = [
+      //ch05_member
+      'http://live01.live168.us/ch05_member.m3u8',
+      //ch70_member
+      'http://live01.live168.us/ch70_member.m3u8',
+      //ch72_member
+      'http://live01.live168.us/ch72_member.m3u8',
+      //ch73_member
+      'http://live01.live168.us/ch73_member.m3u8',
+      //ch74_member
+      'http://live01.live168.us/ch74_member.m3u8',
+      //m173_member
+      'http://live01.live168.us/m173_member.m3u8',
+      //m174_member
+      'http://live01.live168.us/m174_member.m3u8',
+      //npb1_member
+      'http://live01.live168.us/npb1_member.m3u8',
+      //npb2_member
+      'http://live01.live168.us/npb2_member.m3u8',
+      //npb3_member
+      'http://live01.live168.us/npb3_member.m3u8',
+      //npb4_member
+      'http://live01.live168.us/npb4_member.m3u8',
+      //npb5_member
+      'http://live01.live168.us/npb5_member.m3u8',
+      //npb6_member
+      'http://live01.live168.us/npb6_member.m3u8',
+    ]
+
+    function playVideo(x, y, w, h, url, clipW, clipH, offsetY, isVideoMute) {
+      _isPlayVideo = true
+
+      _connectUrl = _videoList[_videoId++]
+      if(_videoId >= _videoList.length) _videoId = 0
+
+      addVideo(_connectUrl)
+    } 
+
+    function pauseVideo() {
+
+    }
+
+    function continueVideo() {
+
+    }
+
+    function setVideoVisbile(isVisible) {
+      let myVideo = document.getElementById('myVideo')
+      myVideo.style.visibility = (isVisible == true) ? 'visible' : 'hidden'
+    }
+
+    function stopVideo() {
+      _isPlayVideo = false
+      removeVideo()
+    }
+    
+  </script>
+
+
+  <canvas id="GameCanvas" oncontextmenu="event.preventDefault()" tabindex="0"></canvas>
+  <div id="splash"  style="visibility:hidden">
+    <div class="progress-bar stripes">
+      <span style="width: 0%"></span>
+    </div>
+  </div>
+<script src="src/settings.js" charset="utf-8"></script>
+<script src="main.js" charset="utf-8"></script>
+
+</body>
+</html>

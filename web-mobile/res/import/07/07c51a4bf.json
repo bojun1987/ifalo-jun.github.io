@@ -1,0 +1,1 @@
+[{"__type__":"cc.SpriteAtlas","_name":"lobbyLight2.plist","_spriteFrames":{"y05-min":{"__uuid__":"f5a52925-e7ac-419d-b542-e2ab187dfb3c"}}},{"__type__":"cc.SpriteFrame","content":{"name":"y05-min","texture":"03b8bed4-8871-485b-be31-51f5edf01de9","rect":[2,2,1138,526],"offset":[0,2],"originalSize":[1138,536],"rotated":1}}]
