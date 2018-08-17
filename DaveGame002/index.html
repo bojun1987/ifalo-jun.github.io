@@ -143,6 +143,35 @@
 		jsOkBtn.onclick = function() {
 			window.location.href = "index.html"; //刷新页面
 		}
+
+		document.onkeydown = function (e) {
+                e = e || event;
+                var currKey = e.keyCode || e.which || e.charCode;
+                if (currKey == 32) {
+                    if(jsStartBtn.style.display != 'none') {
+                    	jsHeadTitle.style.display = "none"; //隐藏标题
+						clearInterval(headWaveTimer); //关闭让标题摆动的定时器
+						jsStartBtn.style.display = "none"; //隐藏按键
+						bird.showBird(jsWrapBg); //插入小鸟到界面中
+						bird.flyBird(); //控制小鸟飞翔下落
+						bird.wingWave(); //逐帧动画，小鸟煽动翅膀
+						jsWrapBg.onclick = function(){
+							bird.fallSpeed = -8;
+						};
+						var b = new Block();
+						b.createBlock();		
+						blocksArr.push(b);
+						jsNum1.style.display = "block";
+						//待添加功能
+						//点击开始按键进入游戏界面
+                    }else if(jsGameOver.style.display == "block") {
+						window.location.href = "index.html"; //刷新页面
+                    } else {
+						bird.fallSpeed = -8;
+                    }
+
+                }
+            };
 		
 	</script>
 </html>
