@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<!-- tag 的內容使用 {0}, {1}, {2}, ... 表示預留替換程式的值；使用 {n} 表示換行 -->
+
+
+	<!-- ––––– [LoginScene 場景的預載文字] ––––– + ––––– + ––––– -->
+	<root id="LoginScene">
+		<tag id="img_panel.txt_account">帳號</tag>
+		<tag id="img_panel.txt_password">密碼</tag>
+		<tag id="img_panel.txt_connectMsg">Server 連線中...</tag>
+		<tag id="img_panel.cb_autoLogin">記憶帳號，自動登入</tag>
+		<tag id="img_panel.inp_account">請輸入帳號...</tag>
+		<tag id="img_panel.inp_password">請輸入密碼...</tag>
+		<tag id="img_panel.btn_login">確認</tag>
+		<tag id="LoginScene.txt_loginMsg">驗證失敗，請從遊戲大廳或平台登入！</tag>
+	</root>
+
+	<!-- ––––– [RecordScene 場景的預載文字] ––––– + ––––– + ––––– -->
+	<root id="RecordScene">
+		<tag id="box_subTitles.img_subTitle0">日期時間</tag>
+		<tag id="box_subTitles.img_subTitle1">機台編號</tag>
+		<tag id="img_panel.btn_confirm">確認</tag>
+	</root>
+
+	<!-- ––––– [SettingScene 場景的預載文字] ––––– + ––––– + ––––– -->
+	<root id="SettingScene">
+		<tag id="img_panel.txt_title">遊戲設定</tag>
+		<tag id="box_sequeAnim.txt_label">機台順序轉動模式</tag>
+		<tag id="box_syncAnim.txt_label">機台同步轉動模式</tag>
+		<tag id="box_sndSwitch.txt_label">開啟遊戲音效</tag>
+		<tag id="box_bgmSwitch.txt_label">開啟背景音樂</tag>
+		<tag id="img_panel.btn_confirm">確認</tag>
+	</root>
+
+	<!-- ––––– [RuleScene 場景的預載文字] ––––– + ––––– + ––––– -->
+	<root id="RuleScene">
+		<tag id="img_panel.btn_prev">上一頁</tag>
+		<tag id="img_panel.btn_next">下一頁</tag>
+		<tag id="img_panel.btn_confirm">確認</tag>
+	</root>
+
+	<!-- ––––– [ActionScene 場景的預載文字] ––––– + ––––– + ––––– -->
+	<root id="ActionScene">
+		<tag id="img_panel.txt_title">最新活動</tag>
+		<tag id="img_panel.btn_confirm">確認</tag>
+	</root>
+
+	<!-- ––––– [AlertScene 場景的預載文字] ––––– + ––––– + ––––– -->
+	<root id="AlertScene">
+		<tag id="box_btns.btn_cancel">取消</tag>
+		<tag id="box_btns.btn_confirm">確認</tag>
+	</root>
+
+	<!-- ––––– [ExchangeScene 場景的預載文字] ––––– + ––––– + ––––– -->
+	<root id="ExchangeScene">
+		<tag id="img_panel.inp_exchange">請輸入兌換金額...</tag>
+		<tag id="img_panel.btn_cancel">取消兌幣</tag>
+		<tag id="img_panel.btn_confirm">確認兌幣</tag>
+	</root>
+
+	<!-- ––––– [NumSetScene 場景的預載文字] ––––– + ––––– + ––––– -->
+	<root id="NumSetScene">
+		<tag id="img_panel.btn_cancel">取消</tag>
+		<tag id="img_panel.btn_confirm">確認</tag>
+	</root>
+
+	<!-- ––––– [MachineInfoScene 場景的預載文字] ––––– + ––––– + ––––– -->
+	<root id="MachineInfoScene">
+		<tag id="img_panel.txt_title">機台編號</tag>
+		<tag id="box_infos.txt_info0">JP 累計開獎次數：</tag>
+		<tag id="box_infos.txt_info1">昨日 200 倍以上次數：</tag>
+		<tag id="box_infos.txt_info2">昨日 1000 倍以上次數：</tag>
+		<tag id="box_infos.txt_info3">昨日累計出彩金：</tag>
+		<tag id="box_infos.txt_info4">昨日累計下注金：</tag>
+		<tag id="box_infos.txt_info5">昨日累計 Bonus 次數：</tag>
+		<tag id="img_panel.btn_back">返回大廳</tag>
+	</root>
+
+	<!-- ––––– [TreasureResultScene 場景的預載文字] ––––– + ––––– + ––––– -->
+	<root id="TreasureResultScene">
+		<tag id="img_boardFail.txt_msg">請再接再厲！</tag>
+	</root>
+
+	<!-- ––––– [聚寶盆獎項訊息] ––––– + ––––– + ––––– -->
+	<tag id="treasureMsg_mini">獲得小獎！</tag>
+	<tag id="treasureMsg_minor">獲得中獎！</tag>
+	<tag id="treasureMsg_major">獲得大獎！</tag>
+
+	<!-- ––––– [中獎紀錄的次標題與訊息 (rec = record)] ––––– + ––––– + ––––– -->
+	<tag id="recTitle_jp">JP 中獎紀錄</tag>
+	<tag id="recTitle_win">最新 10 筆中獎紀錄</tag>
+	<tag id="recSubTitle0">JP 獎金</tag>
+	<tag id="recSubTitle1">代理核銷日期</tag>
+	<tag id="recSubTitle2">單線下注金額</tag>
+	<tag id="recSubTitle3">中獎倍數</tag>
+	<tag id="recSubTitle4">中獎金額</tag>
+	<tag id="recMsg_notFind">目前系統查詢不到您的中獎紀錄</tag>
+	<tag id="recMsg_latest">顯示最新 10 筆中獎記錄</tag>
+	<tag id="recMsg_review">總代理審核中</tag>
+	<tag id="recMsg_bigWin">{0} 倍/BIG</tag>
+	<tag id="recMsg_megaWin">{0} 倍/MEGA</tag>
+
+	<!-- ––––– [跑馬燈資訊 (mq = marquee)] ––––– + ––––– + ––––– -->
+	<tag id="mqMsg_jp">{0} 恭賀 No. {1} 機台拉中 JP 大彩金 {2}%</tag>
+	<tag id="mqMsg_win">{0} 恭賀 No. {1} 機台拉中 {2} 倍 {3}</tag>
+
+	<!-- ––––– [機台面板的訊息 (mac = machine)] ––––– + ––––– + ––––– -->
+	<tag id="macInfo_tableId">機台編號</tag>
+	<tag id="macInfo_goto">進入機台</tag>
+	<tag id="macInfo_occupy">機台已被使用</tag>
+
+	<!-- ––––– [押線與押住面板的訊息] ––––– + ––––– + ––––– -->
+	<tag id="setTitle_lines">選擇押線數</tag>
+	<tag id="setTitle_bet">單線押注金額</tag>
+
+	<!-- ––––– [倒數與載入訊息] ––––– + ––––– + ––––– -->
+	<tag id="countdown_toGame">倒數 {0} 秒返回遊戲</tag>
+	<tag id="countdown_toBonus">倒數 {0} 秒開始遊戲</tag>
+	<tag id="loading_toScene">載入中</tag>
+
+	<!-- ––––– [警告訊息：遊戲內的操作與邏輯] ––––– + ––––– + ––––– -->
+	<tag id="alertTitle_event">活動訊息</tag>
+	<tag id="alertTitle_system">系統訊息</tag>
+	<tag id="alertTitle_error">錯誤訊息</tag>
+	<tag id="alertTitle_maintain">維護通知</tag>
+	<tag id="alertTitle_unknown">未知的訊息</tag>
+	<tag id="alertMsg_loginErr">帳號或密碼錯誤，請再次確認</tag>
+	<tag id="alertMsg_logout">請問您確認要離開遊戲嗎？</tag>
+	<tag id="alertMsg_reLogin">有相同帳號登入，本遊戲連線中斷！</tag>
+	<tag id="alertMsg_userBan">你因為{0}，以致於帳號被封鎖，如有問題請洽客服！</tag>
+	<tag id="alertMsg_userKick">你因為{0}，以致於被剔除遊戲，如有問題請洽客服！</tag>
+	<tag id="alertMsg_jpTransfer">您的 Jackpot 獎金已轉入您的指定帳戶，敬請查收</tag>
+	<tag id="alertMsg_gm">遊戲管理員</tag>
+	<tag id="alertMsg_maintain">伺服器將於 {0} 到 {1} 進行維護。{n}不便之處，敬請見諒</tag>
+	<tag id="alertMsg_event0">每晚 20:00-24:00，JP 獎金加碼台幣 50 萬活動開始。{n}目前系統已加碼 JP 獎金 50 萬元，祝您幸運中大獎 ~~</tag>
+	<tag id="alertMsg_event1">JP 獎金加碼活動已結束，系統將自動回復 JP 實際累計獎金</tag>
+
+	<!-- ––––– [SF Server 訊息：遊戲內的錯誤] ––––– + ––––– + ––––– -->
+	<tag id="gameErr0">找不到房間</tag>
+	<tag id="gameErr1">找不到房間</tag>
+	<tag id="gameErr2">加入房間錯誤</tag>
+	<tag id="gameErr3">房間已滿</tag>
+	<tag id="gameErr4">找不到座位</tag>
+	<tag id="gameErr5">座位已被占用</tag>
+	<tag id="gameErr6">錯誤的下注行為</tag>
+	<tag id="gameErr7">您的籌碼不足，請立即兌幣{n}於 [確認] 後，跳出兌幣視窗</tag>
+	<tag id="gameErr8">買入籌碼太少</tag>
+	<tag id="gameErr9">買入籌碼太多</tag>
+	<tag id="gameErr10">你已經在進行遊戲</tag>
+	<tag id="gameErr11">伺服器內部錯誤</tag>
+	<tag id="gameErr12">籌碼不足以購買 JP</tag>
+	<tag id="gameErr13">玩家離線</tag>
+	<tag id="gameErr14">找不到朋友</tag>
+	<tag id="gameErr15">找不到使用者</tag>
+	<tag id="gameErr16">遊戲幣不足</tag>
+	<tag id="gameErr17">帳戶餘額不足</tag>
+	<tag id="gameErr18">伺服器重開</tag>
+	<tag id="gameErr19">遊戲區域關閉</tag>
+	<tag id="gameErr20">不合法的啟動碼</tag>
+	<tag id="gameErr21">帳號尚未啟用</tag>
+	<tag id="gameErr22">餘額不足</tag>
+	<tag id="gameErr23">相同對象，每日限轉帳一次</tag>
+	<tag id="gameErr24">超過轉帳限額</tag>
+	<tag id="gameErr25">不能轉帳給你自己</tag>
+	<tag id="gameErr26">伺服器維護中：{0} 到 {1}</tag>
+	<tag id="gameErr27">轉帳金額不得為 0</tag>
+	<tag id="gameErr28">儲值卡序號已被使用</tag>
+	<tag id="gameErr29">儲值卡序號或密碼輸入錯誤</tag>
+	<tag id="gameErr30">此為活動儲值卡，只能使用一次</tag>
+	<tag id="gameErr31">加入房間密碼錯誤</tag>
+	<tag id="gameErr32">房間關閉中，無法加入</tag>
+	<tag id="gameErr33">很抱歉，您的 IP 與本桌玩家相同，因此無法坐下進行牌局</tag>
+	<tag id="gameErr34">找不到比賽場玩家</tag>
+	<tag id="gameErr35">不能取消參賽</tag>
+	<tag id="gameErr36">找不到錦標賽場次</tag>
+	<tag id="gameErr37">玩家沒有登記參賽</tag>
+	<tag id="gameErr38">機台不存在</tag>
+	<tag id="gameErr39">機台已被占用</tag>
+	<tag id="gameErr40">目前無法進行 Bonus</tag>
+	<tag id="gameErr41">Bouns Game 進行中</tag>
+	<tag id="gameErr42">您已到達限贏額度，請洽詢您的遊戲代理</tag>
+	<tag id="gameErr43">您已到達限輸額度，請洽詢您的遊戲代理</tag>
+	<tag id="gameErr44">您已被鎖單，請洽詢您的遊戲代理</tag>
+	<tag id="gameErr45">您帳號已經停用，請洽詢您的遊戲代理</tag>
+	<tag id="gameErr46">您的帳號沒有權限，請洽詢您的遊戲代理</tag>
+	<tag id="gameErr47">小姐選擇錯誤，請重新點選符合您的小姐</tag>
+	<tag id="gameErr48">第一回合不能 PASS</tag>
+	<tag id="gameErr49">錯誤的下注行為 (for bonus)</tag>
+	<tag id="gameErr50">信用回復中</tag>
+
+	<!-- ––––– [SF Server 訊息：Server 端的錯誤] ––––– + ––––– + ––––– -->
+	<tag id="sfsErr0">客戶端 API 版本已過期：{0}；{n}需求版本：{1}</tag>
+	<tag id="sfsErr1">區域 {0} 不存在</tag>
+	<tag id="sfsErr2">帳號 {0} 錯誤</tag>
+	<tag id="sfsErr3">玩家 {0} 的密碼輸入錯誤</tag>
+	<tag id="sfsErr4">玩家 {0} 已經被封鎖</tag>
+	<tag id="sfsErr5">區域 {0} 已滿</tag>
+	<tag id="sfsErr6">玩家 {0} 已經登入遊戲區域 {1}</tag>
+	<tag id="sfsErr7">伺服器已滿</tag>
+	<tag id="sfsErr8">遊戲區域 {0} 尚未開放</tag>
+	<tag id="sfsErr9">玩家名稱 {0} 包含以下不雅字眼：{1}</tag>
+	<tag id="sfsErr10">Guest users not allowed in Zone {0}</tag>
+	<tag id="sfsErr11">此 IP {0} 已經被封鎖</tag>
+	<tag id="sfsErr12">相同房間名稱已經存在：{0}</tag>
+	<tag id="sfsErr13">你所要求的房間群組不能使用 - {n}房間名稱：{0}；群組名稱：{1}</tag>
+	<tag id="sfsErr14">房間名稱長路錯誤 - {n}最少：{0}；最多：{1}；{n}你的房間名稱長度：{2}</tag>
+	<tag id="sfsErr15">房間名稱包含不雅文字：{0}</tag>
+	<tag id="sfsErr16">遊戲區域已滿不能再新增房間</tag>
+	<tag id="sfsErr17">你已經超每個連線可以建立的房間數量：{0}</tag>
+	<tag id="sfsErr18">房間建立失敗，參數錯誤：{0}</tag>
+	<tag id="sfsErr19">玩家 {0} 已經加入房間</tag>
+	<tag id="sfsErr20">房間 {0} 已滿</tag>
+	<tag id="sfsErr21">進入房間的密碼錯誤 {0}</tag>
+	<tag id="sfsErr22">你所要求的房間不存在</tag>
+	<tag id="sfsErr23">房間 {0} 已上鎖</tag>
+	<tag id="sfsErr24">群組 {0} 已經訂閱</tag>
+	<tag id="sfsErr25">群組 {0} 不存在</tag>
+	<tag id="sfsErr26">群組 {0} 尚未訂閱</tag>
+	<tag id="sfsErr27">群組 {0} 不存在</tag>
+	<tag id="sfsErr28">{0}</tag>
+	<tag id="sfsErr29">權限錯誤；{n}房間 {0} 不能重新命名</tag>
+	<tag id="sfsErr30">權限錯誤；{n}房間 {0} 不能變更密碼</tag>
+	<tag id="sfsErr31">權限錯誤；{n}房間 {0} 不能變更人數</tag>
+	<tag id="sfsErr32">切換使用者狀態錯誤；{n}房間 {0} 使用者已滿</tag>
+	<tag id="sfsErr33">切換使用者狀態錯誤；{n}房間 {0} 無法再容納旁觀者</tag>
+	<tag id="sfsErr34">切換使用者狀態錯誤；{n}房間 {0} 不是遊戲房間</tag>
+	<tag id="sfsErr35">切換使用者狀態錯誤；{n}你還沒加入房間 {0}</tag>
+	<tag id="sfsErr36">朋友列表初始化錯誤，無法載入朋友列表：{0}</tag>
+	<tag id="sfsErr37">朋友列表錯誤，你的朋友列表已滿；{n}大小是 {0}</tag>
+	<tag id="sfsErr38">朋友列表錯誤，不能封鎖玩家 {0} 因為玩家 {0} 已離線</tag>
+	<tag id="sfsErr39">朋友列表錯誤，你設定太多朋友變數；{n}上限是 {0}</tag>
+	<tag id="sfsErr40">遊戲 {0} 存取錯誤，玩家禁止訪問</tag>
+	<tag id="sfsErr41">快速加入遊戲失敗：找不到適合的房間</tag>
+	<tag id="sfsErr42">您之前的邀請回覆無效或太遲</tag>
+</data>

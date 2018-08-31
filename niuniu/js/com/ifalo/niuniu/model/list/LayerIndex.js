@@ -1,0 +1,1 @@
+var com;!function(n){!function(n){!function(n){!function(n){!function(n){var i=function(){function n(){}return n.DEFAULT=0,n.MENU=20,n}();n.LayerIndex=i}(n.lists||(n.lists={}))}(n.model||(n.model={}))}(n.niuniu||(n.niuniu={}))}(n.ifalo||(n.ifalo={}))}(com||(com={}));
